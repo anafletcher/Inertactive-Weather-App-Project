@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Interactive Weather App Project</title>
   </head>
   <body>
@@ -12,29 +13,22 @@
         <input type="submit" value="search" />
       </form>
     </header>
-  
-  <main>
-    <h1>City name</h1>
-    <div>
-    <p>
-        Day Time, Conditions
-        <br />
-        Humidity, Wind
-    </p>
-    </div>
-    <div>
-        Emoji TemperatureC
-    </div>
-    <p>
-        <ul>
-            <li>Mon</li>
-            <li>Tue</li>
-            <li>Wed</li>
-            <li>Thu</li>
-            <li>Fri</li>
-        </ul>
-    </p>
-  </main>
+
+    <main>
+      <h1>City name</h1>
+      <div>
+        <p>
+          Day Time, Conditions
+          <br />
+          Humidity, Wind
+        </p>
+      </div>
+      <div>Emoji TemperatureC</div>
+
+      <div class="forecast-container">
+        <span>Mon Tue Wed Thu Fri</span>
+      </div>
+    </main>
   </body>
   <footer>
     <a href="https://github.com/anafletcher" target="_blank">Alicia Fletcher</a>
@@ -51,6 +45,5 @@
       target="_blank"
       >hosted on Netlify</a
     >
-    
   </footer>
 </html>
