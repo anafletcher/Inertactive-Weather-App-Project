@@ -41,6 +41,7 @@ a {
   padding: 20px 30px;
   font-size: 16px;
   margin-left: 10px;
+  width: 75%;
 }
 
 .search-form-button {
@@ -51,6 +52,7 @@ a {
   color: #e7eaf6;
   margin-left: 10px;
   font-size: 16px;
+  width: 20%;
 }
 
 .weather-app-info {
