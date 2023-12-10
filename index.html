@@ -28,16 +28,23 @@
 
       <main>
         <div class="weather-app-info">
-          <h1 class="weather-app-city">City</h1>
           <div>
-            <p class="weather-app-details">
-              Day Time, Conditions
-              <br />
-              Humidity; <strong>66%</strong>, Wind:<strong>3.5km/h</strong>
-            </p>
+            <h1 class="weather-app-city">London</h1>
+            <div>
+              <p class="weather-app-details">
+                Day Time, Conditions
+                <br />
+                Humidity:<strong>66%</strong>, Wind:<strong>3.5km/h</strong>
+              </p>
+            </div>
           </div>
-          <div class="weather-app-temp-container">Emoji TemperatureC</div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-emoji">☀️</div>
+            <div class="weather-app-temperature">30</div>
+            <div class="weather-app-temp-unit">°C</div>
+          </div>
         </div>
+
         <div class="forecast-container">
           <div>Mon</div>
           <div>Tue</div>
@@ -58,11 +65,12 @@
         >
           on GitHub</a
         >
-        and
+        and hosted
         <a
           href="https://project-interactive-weather-app.netlify.app/"
           target="_blank"
-          >hosted on Netlify</a
+        >
+          on Netlify</a
         >
       </footer>
     </div>
