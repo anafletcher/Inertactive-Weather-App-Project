@@ -73,7 +73,7 @@ a {
 }
 
 .weather-app-details strong {
-  color: deeppink;
+  color: rgb(169, 22, 52);
 }
 
 .weather-app-temperature-container {
@@ -89,6 +89,7 @@ a {
   margin-top: 10px;
   font-size: 30px;
   margin-right: 10px;
+  font-weight: bolder;
 }
 
 .weather-app-temperature {
