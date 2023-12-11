@@ -81,9 +81,12 @@ a {
   display: flex;
 }
 
-.weather-app-emoji {
-  font-size: 60px;
-  margin-top: 3px;
+.weather-app-icon {
+  font-size: 90px;
+  margin: 0;
+  font-weight: bold;
+  width: 90px;
+  height: 90px;
 }
 
 .weather-app-temp-unit {
@@ -97,6 +100,8 @@ a {
   font-size: 90px;
   font-weight: bold;
   margin-left: 10px;
+  line-height: 90px;
+  margin-top: 10px;
 }
 
 .forecast-container {
