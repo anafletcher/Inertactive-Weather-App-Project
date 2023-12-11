@@ -23,6 +23,7 @@ function refreshWeatherData(response) {
 function formatDate(date) {
   let minutes = date.getMinutes();
   let hours = date.getHours();
+
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
@@ -39,9 +40,18 @@ function formatDate(date) {
     "Saturday",
   ];
 
+  /*
+  let backgoundBody = document.querySelector("#background");
+  if (hours < 12) {
+    backgoundBody.style.background = "lightblue";
+  } else if (hours < 18) {
+    backgoundBody.style.background = "orange";
+  } else {
+    backgoundBody.style.background = "darkblue";
+  }
+*/
   let day = days[date.getDay()];
   return `${day} ${hours}:${minutes}`;
-  console.log(day);
 }
 
 function submitCity(event) {

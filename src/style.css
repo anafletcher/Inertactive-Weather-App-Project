@@ -1,6 +1,6 @@
 body {
-  background-color: #38598b;
   font-family: "Tajawal", sans-serif;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/106/796/original/Above_Clouds.png?1702307675);
 }
 
 header {
@@ -10,6 +10,7 @@ header {
 
 main {
   padding: 30px 0;
+  color: #113f67;
 }
 
 footer {
@@ -21,20 +22,20 @@ footer {
 }
 
 a {
-  color: blueviolet;
+  color: #4488ed;
 }
 
 .weather-app {
-  background-color: #e7eaf6;
-  width: 60%;
-  margin: 30px auto;
+  background-color: #dcdcdc;
+  width: 40%;
+  margin: 60px auto;
   padding: 30px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   border-radius: 18px;
 }
 
 .search-form-input {
-  background-color: #a2a8d3;
+  background-color: #e8fbfe;
   color: #113f67;
   border: none;
   border-radius: 6px;
@@ -42,10 +43,11 @@ a {
   font-size: 16px;
   margin-left: 10px;
   width: 75%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .search-form-button {
-  background-color: #113f67;
+  background-color: #40c6eb;
   border: none;
   border-radius: 6px;
   padding: 20px 30px;
@@ -53,6 +55,7 @@ a {
   margin-left: 10px;
   font-size: 16px;
   width: 20%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .weather-app-info {
