@@ -82,26 +82,26 @@ a {
 }
 
 .weather-app-icon {
-  font-size: 90px;
-  margin: 0;
+  font-size: 120px;
+  margin-top: -5px;
   font-weight: bold;
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
 }
 
 .weather-app-temp-unit {
-  margin-top: 10px;
+  margin-top: 25px;
   font-size: 30px;
   margin-right: 10px;
-  font-weight: bolder;
+  font-weight: 700px;
 }
 
 .weather-app-temperature {
-  font-size: 90px;
+  font-size: 100px;
   font-weight: bold;
   margin-left: 10px;
-  line-height: 90px;
-  margin-top: 10px;
+  line-height: 100px;
+  margin-top: 25px;
 }
 
 .forecast-container {
